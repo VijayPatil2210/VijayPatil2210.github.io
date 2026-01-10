@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Vijay Patil | Portfolio</title>
+  <style>
+    /* Contact Form Styles */
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#contact-form label {
+  font-size: 1rem;
+  font-weight: bold;
+  align-self: flex-start;
+  margin-left: 10%;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 80%;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+#contact-form textarea {
+  resize: none;
+  min-height: 120px;
+}
+
+#contact-form input[type="submit"] {
+  width: 50%;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  background-color: #0984e3;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#contact-form input[type="submit"]:hover {
+  background-color: #74b9ff;
+}
+
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+      font-family: Arial, sans-serif;
+      background: #0b1220;
+      color: #fff;
+    }
+
+    #about p {
+  font-size: 1.5rem;  /* Bigger text */
+  line-height: 1.7;   /* Better readability */
+}
+
+    #particles-js {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      pointer-events: none;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+      position: relative;
+      z-index: 1;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+      background: rgba(255,255,255,0.1);
+      padding: 20px;
+      border-radius: 10px;
+    }
+    header h1 { margin: 0; font-size: 2.5rem; }
+    header p { margin: 8px 0; font-size: 1.2rem; }
+
+    nav {
+      text-align: center;
+      margin-bottom: 20px;
+      position: sticky;
+      top: 0;
+      background: rgba(255,255,255,0.1);
+      padding: 10px 0;
+      border-radius: 10px;
+      z-index: 10;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 12px;
+    }
+    nav a:hover { text-decoration: underline; }
+
+    section {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 40px 20px;
+      margin-bottom: 20px;
+    }
+
+      h2 {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center; /* Add this line */
+    width: 100%;        /* Make the heading take full width */
+  }
+
+
+    ul { list-style: none; padding: 0; }
+    li { margin: 8px 0; }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+    input, textarea {
+      width: 60%;
+      max-width: 400px;
+      padding: 10px;
+      border-radius: 6px;
+      border: none;
+      outline: none;
+      font-size: 1rem;
+      background: rgba(255, 255, 255, 0.1);
+      color: #fff;
+    }
+    textarea { resize: none; }
+    button {
+      width: 40%;
+      max-width: 200px;
+      padding: 12px;
+      border: none;
+      border-radius: 6px;
+      background: #0984e3;
+      color: #fff;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    button:hover { background: #74b9ff; }
+
+    footer { text-align: center; margin: 20px 0; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+
+  <div id="particles-js"></div>
+
+  <div class="container">
+    <header>
+      <h1>Vijay Patil</h1>
+      <p>Aspiring Data Analyst | Python • SQL • Power BI</p>
+    </header>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>👋 Hi, I’m Vijay! Passionate about Data Analysis & Data Science, skilled in Python, SQL, Power BI, Excel, and experienced with C++ & OOP concepts. I create insightful dashboards and data-driven solutions to support real-world decision-making.</p>
+    </section>
+
+    <section id="skills">
+  <h2>Skills</h2>
+  <ul style="font-size: 1.5rem; gap: 12px; display: flex; flex-wrap: wrap;">
+    <li style="margin: 10px;">🐍 Python</li>
+    <li style="margin: 10px;">💻 C++</li>
+    <li style="margin: 10px;">🗄️ SQL</li>
+    <li style="margin: 10px;">📦 OOP</li>
+    <li style="margin: 10px;">🌐 HTML</li>
+    <li style="margin: 10px;">🎨 CSS</li>
+    <li style="margin: 10px;">📊 Power BI</li>
+    <li style="margin: 10px;">📑 Excel</li>
+    <li style="margin: 10px;">🐙 GitHub</li>
+  </ul>
+</section>
+
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>📊 Pizaa Sales Dashboard (Power BI) – 
+          <a href="pizaa sale.pbix" target="_blank" style="color:#fff;">View Project</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="resume">
+      <h2>Resume</h2>
+      <p>📄 <a href="Vijay-Resume 1.pdf" download style="color:#fff;">Download My Resume</a></p>
+      <p>📧 Email: <a href="mailto:patilvijayyy@gmail.com">patilvijayyy@gmail.com</a></p>
+      <p>📱 Mobile: <a href="tel:+918010202717">+91 8010202717</a></p>
+      <p>🔗 LinkedIn: 
+        <a href="https://www.linkedin.com/in/vijat-patil2210" target="_blank">
+          linkedin.com/in/vijay-patil2210
+        </a>
+      </p>
+      <p>🐙 GitHub: 
+        <a href="https://github.com/VijayPatil2210" target="_blank">
+          github.com/VijayPatil2210
+        </a>
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+       <form id="contact-form">
+      <input type="hidden" name="time" value="Mar 10 2025 08:46">
+      <input type="text" name="name"  placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="text" name="title" placeholder="Your Subject" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <input type="submit" value="Send">
+      <p id="form-message" style="margin-top:10px; text-align:center; font-weight:bold;"></p>
+      </form>
+    </section>
+
+    <footer><footer>
+  <p>I’m always open to discussing new opportunities or collaborations.  
+  You can reach me through any of the methods above:</p>
+  <p>© 2025 Vijay Patil | Portfolio Website</p>
+</footer>
+</footer>
+  </div>
+
+  <!-- particles.js -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+  particlesJS("particles-js", {
+    "particles": {
+      "number": { "value": 80, "density": { "enable": true, "value_area": 800 } },
+      "color": { "value": "#ffffff" },
+      "shape": { "type": "circle" },
+      "opacity": { "value": 0.8 },
+      "size": { "value": 3, "random": true },
+      "line_linked": { "enable": false },
+      "move": {
+        "enable": true,
+        "speed": 2,        // snow falling speed
+        "direction": "bottom",  // fall downward
+        "straight": false,
+        "out_mode": "out", // allow particles to move out of canvas
+        "random": true
+      }
+    },
+    "interactivity": {
+      "detect_on": "canvas",
+      "events": {
+        "onhover": { "enable": false },
+        "onclick": { "enable": false }
+      }
+    },
+    "retina_detect": true
+  });
+</script>
+
+  <!-- EmailJS -->
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script type="text/javascript">
+  // Initialize EmailJS
+  emailjs.init("6Y-o_NSL4ox0CRLk9");
+
+  const form = document.getElementById('contact-form');
+  const msg = document.getElementById('form-message');
+
+  form.addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    emailjs.sendForm('contact_service', 'contact_form', this)
+      .then(() => {
+        msg.style.color = 'lightgreen';
+        msg.textContent = "✅ Message sent successfully!";
+        form.reset();
+      }, (error) => {
+        msg.style.color = 'red';
+        msg.textContent = "❌ Failed to send message. Try again!";
+        console.error('EmailJS error:', error);
+      });
+  });
+</script>
+
+
+</body>
+</html>
